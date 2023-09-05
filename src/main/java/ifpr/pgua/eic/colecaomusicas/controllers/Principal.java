@@ -26,7 +26,7 @@ public class Principal {
         App.pushScreen("LISTARARTISTAS");
     }
 
-        @FXML
+    @FXML
     private void cadastrarMusica(){
         App.pushScreen("CADASTRARMUSICA");
     }
@@ -34,6 +34,16 @@ public class Principal {
     @FXML
     private void listarMusicas(){
         App.pushScreen("LISTARMUSICAS");
+    }
+
+    @FXML
+    private void cadastrarPlaylist(){
+        App.pushScreen("CADASTRARPLAYLIST");
+    }
+
+    @FXML
+    private void listarPlaylists(){
+        App.pushScreen("LISTARPLAYLISTS");
     }
 
 }
